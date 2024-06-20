@@ -6,6 +6,7 @@ public interface DalekType {
 
     float maxHealth();
     void performRangedAttack(LivingEntity livingEntity, float f);
+    String name();
 
 
 }

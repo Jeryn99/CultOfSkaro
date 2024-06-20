@@ -31,6 +31,10 @@ public class DalekEntity extends Monster implements RangedAttackMob {
         setNoAi(false);
     }
 
+    public DalekType getDalekType() {
+        return dalekType;
+    }
+
     @Override
     public void performRangedAttack(LivingEntity livingEntity, float f) {
         dalekType.performRangedAttack(livingEntity, f);
