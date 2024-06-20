@@ -1,0 +1,14 @@
+{
+  "dalek_laser": {
+    "sounds": [
+      "cultofskaro:dalek.laser"
+    ],
+    "subtitle": "sound.dalek_laser.subtitle"
+  },
+  "dalek_move": {
+    "sounds": [
+      "cultofskaro:dalek.move"
+    ],
+    "subtitle": "sound.dalek_move.subtitle"
+  }
+}
